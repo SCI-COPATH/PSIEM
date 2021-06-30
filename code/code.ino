@@ -1,9 +1,9 @@
 #include <dht.h>
 #include <LiquidCrystal.h>
 dht DHT;
-#define DHT11_PIN 7
+#define DHT11_PIN 6
 #define CO2 A0
-LiquidCrystal lcd(12, 11, 5, 4, 3, 2);
+LiquidCrystal lcd(12, 11, 10, 9, 8, 7);
 void setup(){
   lcd.begin(20,4);
   pinMode(CO2,INPUT);
